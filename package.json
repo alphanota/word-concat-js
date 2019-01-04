@@ -4,17 +4,26 @@
   "description": "A simple utility to pick random english words from a dictionary and append them together",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alphanota/word-concat-js.git"
   },
-  "keywords": ["random", "words", "string", "list"],
+  "keywords": [
+    "random",
+    "words",
+    "string",
+    "list"
+  ],
   "author": "Angel Montero",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/alphanota/word-concat-js/issues"
   },
-  "homepage": "https://github.com/alphanota/word-concat-js#readme"
+  "homepage": "https://github.com/alphanota/word-concat-js#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
 }
